@@ -1,0 +1,29 @@
+.videoCard {
+    margin-bottom: 40px;
+    width: 370px;
+    .videoCard__thumbnail {
+        height: 200px;
+        width: 355px;
+    }
+    .videoCard__details {
+        display: flex;
+        margin-top: 10px;
+        padding-right: 30px;
+        .videoCard__info {
+            margin-left: 15px;
+            h4 {
+                font-size: 14px;
+                margin-bottom: 5px;
+            }
+            p {
+                font-size: 14px;
+                color: #808080;
+            }
+        }
+        .videoCard__chanelAvtar {
+            height: 36px;
+            width: 36px;
+        }
+    }
+
+}
