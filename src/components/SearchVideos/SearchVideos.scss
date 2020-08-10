@@ -1,0 +1,21 @@
+.searchVideos {
+    flex: 0.875;
+    background-color: #f9f9f9;
+    padding: 20px 20px;
+    .searchVideos__filter {
+        display: flex;
+        align-items: center;
+        color: #606060;
+        font-size: xx-small;
+        h2 {
+            margin-left: 14px;
+        }
+    }
+    hr {
+        height: 1px;
+        border: 0;
+        background-color: #d3d3d3;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

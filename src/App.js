@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import Sidebar from './components/Sidebar/Sidebar';
 import RecommendedVideos from './components/RecommendedVideos/RecommendedVideos';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import SearchVideos from './components/SearchVideos/SearchVideos';
 
 function App() {
   return (
@@ -15,7 +16,10 @@ function App() {
         <Switch>
           {/* SearchPage */}
           <Route path="/search/:searchTearm">
-            <h1>search page</h1>
+            <div className="app__page">
+              <Sidebar/>
+              <SearchVideos/>
+            </div>
           </Route>
           {/* Homepage */}
           <Route path="/"> 
